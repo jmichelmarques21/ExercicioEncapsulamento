@@ -16,12 +16,12 @@ namespace ExercicioEncapsulamento {
             NumConta = numConta;
         }
 
-        public ContaBancaria(int numConta, string nomeCliente) {
+        public ContaBancaria(int numConta, string nomeCliente) : this (numConta){
             NumConta = numConta;
             NomeCliente = nomeCliente;
         }
 
-        public ContaBancaria(int numConta, string nomeCliente, double saldoConta) {
+        public ContaBancaria(int numConta, string nomeCliente, double saldoConta) : this (numConta,nomeCliente){
             NumConta = numConta;
             NomeCliente = nomeCliente;
             SaldoConta = saldoConta;

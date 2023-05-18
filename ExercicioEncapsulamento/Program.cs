@@ -26,7 +26,7 @@ namespace ExercicioEncapsulamento {
             int numConta = int.Parse(Console.ReadLine());
             Console.Write("Entre o títular da conta: ");
             string nomeCliente = Console.ReadLine();
-            Console.Write("Haverá depósito inicial? ");
+            Console.Write("Haverá depósito inicial (s/n)? ");
             char resposta = char.Parse(Console.ReadLine());
 
             if (resposta == 's' || resposta == 'S') {
